@@ -50,7 +50,7 @@ return [
         ]
     ],
     'x-frame-options' => 'SAMEORIGIN',
-    'MAGE_MODE' => 'default',
+    'MAGE_MODE' => 'developer',
     'session' => [
         'save' => 'files'
     ],
@@ -80,6 +80,6 @@ return [
         'widget.magento.com'
     ],
     'install' => [
-        'date' => 'Thu, 11 May 2023 13:54:28 +0000'
+        'date' => 'Thu, 11 May 2023 20:54:39 +0000'
     ]
 ];
