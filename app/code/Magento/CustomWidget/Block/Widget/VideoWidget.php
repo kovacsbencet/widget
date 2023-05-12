@@ -9,14 +9,14 @@ class VideoWidget extends Template implements BlockInterface
 {
     protected $_template = "widget/videowidget.phtml";
 
-    public function _construct()
+/*     public function _construct()
     {
         parent::_construct();
         $this->setData('area', 'frontend');
-    }
+    } */
 
-    public function getVideoUrl()
+/*     public function getVideoUrl()
     {
         return $this->getData('videoURL');
-    }
+    } */
 }
