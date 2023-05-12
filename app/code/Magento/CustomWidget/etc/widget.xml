@@ -1,15 +1,15 @@
 <?xml version="1.0" ?>
 <widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
             <widget class="Magento\CustomWidget\Block\Widget\VideoWidget" id="magento_customwidget_videowidget">
-                        <label>Magento Custom Video Widget</label>
-                        <description></description>
-                        <parameters>
-                                    <parameter name="videotitle" sort_order="10" visible="true" xsi:type="text">
-                                                <label>Video Title</label>
-                                    </parameter>
-                                    <parameter name="videoURL" sort_order="10" visible="true" xsi:type="text">
-                                                <label>Video URL</label>
-                                    </parameter>
-                        </parameters>
+                    <label>Magento Custom Video Widget</label>
+                    <description></description>
+                    <parameters>
+                                <parameter name="videotitle" sort_order="10" visible="true" xsi:type="text">
+                                            <label>Video Title</label>
+                                </parameter>
+                                <parameter name="videoURL" sort_order="10" visible="true" xsi:type="text">
+                                            <label>Video URL</label>
+                                </parameter>
+                    </parameters>
             </widget>
 </widgets>

@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="<?php echo $block->getViewFileUrl('Magento_CustomWidget::css/style.css') ?>">
+
 <?php if($block->getData('videotitle')): ?>
             <h2 class='video-title'><?php echo $block->getData('videotitle'); ?></h2>
 <?php endif; ?>
@@ -7,7 +9,9 @@
         <source src="<?php echo $block->getVideoUrl('videoURL'); ?>" type="video/mp4">
     </video>
     <div class="custom-video-controls">
-        <button id="playToggle" class="action-icon action-pause">Play</button>
-        <button id="muteToggle" class="action-icon action-volume-up">Mute</button>
+        <button type="button" id="playToggle" class="action-icon action-pause">Play</button>
+        <button type="button" id="muteToggle" class="action-icon action-volume-up">Mute</button>
     </div>
 </div>
+
+<script type="text/javascript" src="<?php echo $block->getViewFileUrl('Magento_CustomWidget::js/customVideoHandler.js') ?>"></script>
