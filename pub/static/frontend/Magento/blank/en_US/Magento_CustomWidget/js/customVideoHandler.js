@@ -1,4 +1,4 @@
-function loadEvent() {}
+//function loadEvent() {}
 
 // Initalize Variables
 
@@ -28,6 +28,6 @@ muteToggle.addEventListener('click', () => {
   );
 });
 
-console.log("The script file is loaded.")
+//console.log("The script file is loaded.")
 
-window.addEventListener('load', loadEvent);
+//window.addEventListener('load', loadEvent);
