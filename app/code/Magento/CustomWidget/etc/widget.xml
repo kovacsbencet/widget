@@ -4,8 +4,11 @@
                         <label>Magento Custom Video Widget</label>
                         <description></description>
                         <parameters>
-                                    <parameter name="widgettitle" sort_order="10" visible="true" xsi:type="text">
-                                                <label>Title</label>
+                                    <parameter name="videotitle" sort_order="10" visible="true" xsi:type="text">
+                                                <label>Video Title</label>
+                                    </parameter>
+                                    <parameter name="videoURL" sort_order="10" visible="true" xsi:type="text">
+                                                <label>Video URL</label>
                                     </parameter>
                         </parameters>
             </widget>

@@ -1,3 +1,13 @@
-<?php if($block->getData('widgettitle')): ?>
-            <h2 class='video-title'><?php echo $block->getData('widgettitle'); ?></h2>
+<?php if($block->getData('videotitle')): ?>
+            <h2 class='video-title'><?php echo $block->getData('videotitle'); ?></h2>
 <?php endif; ?>
+
+<div class="custom-video-widget">
+    <video id="custom-video" autoplay loop muted>
+        <source src="<?php echo $block->getVideoUrl('videoURL'); ?>" type="video/mp4">
+    </video>
+    <div class="custom-video-controls">
+        <button id="playToggle" class="action-icon action-pause">Play</button>
+        <button id="muteToggle" class="action-icon action-volume-up">Mute</button>
+    </div>
+</div>
